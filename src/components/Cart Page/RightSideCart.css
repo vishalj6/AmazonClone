@@ -1,0 +1,72 @@
+.right_side_payment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #a0a0a09c;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0px rgba(133, 133, 133, 0.434);
+}
+
+.cost_right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+}
+
+.cost_right p,
+.cost_right span {
+    font-size: 13px;
+}
+
+.cost_right .right_subtotal {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cost_right .rightbuy_btn {
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #FFD814;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, .5);
+}
+
+.cost_right .rightbuy_btn:hover {
+    background-color: #f3cc0a;
+}
+
+.cost_right .emi {
+    border: 1px solid #ebe8e8;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+
+.emibtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost_right .hide {
+    display: none;
+}
+
+.cost_right .show {
+    display: inline-block;
+    max-width: 250px;
+}

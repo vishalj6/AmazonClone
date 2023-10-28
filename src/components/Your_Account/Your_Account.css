@@ -1,0 +1,114 @@
+.YT-BODY {
+    background-color: white;
+    max-width: 100dvw;
+}
+
+.YT-your-account-comp {
+    margin: 0 auto 5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5rem;
+    min-width: 50%;
+}
+
+.YT-main-div {
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.YT-main-div-title {
+    margin: 10px auto;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.YT-cards {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 15px; */
+}
+
+.YT-card {
+    min-height: 110px;
+    /* width: 300px; */
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #b2b2b284;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.YT-BODY a:hover {
+    background-color: #ebebeb;
+}
+
+.YT-card-icon {
+    text-align: center;
+    width: 25%;
+    min-width: 90px;
+    padding: 10px 0px;
+    width: 100px;
+}
+
+.YT-card-icon img {
+    width: 80%;
+}
+
+.YT-card-info {
+    width: 75%;
+    padding: 5px;
+}
+
+.YT-card-heading {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 8px 0px;
+    color: black;
+}
+
+.YT-card-about {
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+}
+
+
+
+@media (max-width: 768px) {
+    .YT-main-div {
+        width: 90%;
+    }
+
+    .YT-card {
+        width: 100%;
+    }
+
+    .YT-card-icon {
+        width: 30%;
+    }
+
+    .YT-card-info {
+        width: 70%;
+    }
+
+    .YT-card-heading {
+        font-size: 15px;
+    }
+
+    .YT-card-about {
+        font-size: 12px;
+    }
+
+}

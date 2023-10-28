@@ -1,0 +1,250 @@
+.category-div-buypage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  padding-left: 35px;
+}
+
+.category-div-buypage ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: 400;
+}
+
+.category-div-buypage ul li {
+  font-size: 12.5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.category-div-buypage ul li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(36, 100%, 50%);
+  margin-top: 2px;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.category-div-buypage ul li:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.mini-buypage-div {
+  padding-left: 20px;
+}
+
+.mini-buypage-div p a {
+  color: hsl(218, 4%, 35%);
+}
+
+.product-image-carousel-inner {
+  width: 100%;
+}
+
+.product-image-carousel {
+  border-top: 1px solid #ddd;
+}
+
+.carousel-image-div img {
+  width: 100% !important;
+  object-fit: contain;
+}
+
+.carousel-image-div img {
+  width: 100%;
+}
+
+.product-carousel .splide__pagination__page {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 0;
+  transition: transform .2s linear;
+  border: 2px solid black;
+  opacity: 1;
+  font-size: 24px;
+  font-weight: bold;
+  color: #999;
+  font-family: "Abril Fatface", serif;
+}
+
+.product-carousel .splide__pagination__page.is-active {
+  background-color: #FFA500;
+  /* border: 2px solid var(--red); */
+}
+
+.product-image-carousel h1 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #333;
+  margin-left: 25px;
+}
+
+.product-buy-info {
+  /* padding-left: 20px; */
+  /* margin-left: 20px; */
+  width: 100%;
+}
+
+.device-information h2 {
+  margin: 3px 0 7px 0;
+  color: #C60;
+  font-size: 16px;
+}
+
+.device-information h1 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.technical-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 49%;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.device-information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.inner-device-information {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.inner-technical-details {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(2, minmax(min(100%, 400px), 1fr));
+  grid-template-rows: auto;
+  /* overflow: hidden; */
+  gap: 0;
+  margin-bottom: 1rem;
+}
+
+.technical-details span:nth-child(odd) {
+  font-size: 16px !important;
+  border-top: 1px solid #BBBFBF;
+  padding: 7px 14px 6px;
+  background-color: #F0F2F2;
+  font-weight: 400;
+  width: 50% !important;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.technical-details span:nth-child(even) {
+  word-break: break-word;
+  padding: 7px 14px 6px;
+  border-top: 1px solid #BBBFBF;
+  width: 400px;
+  position: relative;
+  left: -180px;
+}
+
+.last-span {
+  border-bottom: 1px solid #BBBFBF;
+}
+
+.additional-information-product {
+  width: 50%;
+  /* flex-grow: 1; */
+  /* min-width: 200px; */
+}
+
+.additional-information-product h1 {
+  padding: 0 0 7px 10px;
+  border-bottom: 1px solid #CCC;
+  font-weight: 400;
+}
+
+.inner-additional-details {
+  min-width: 400px;
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(2, minmax(min(100%, 400px), 1fr));
+  grid-template-rows: auto;
+}
+
+.inner-additional-details span:nth-child(odd) {
+  font-size: 16px !important;
+  border-top: 1px solid #BBBFBF;
+  padding: 7px 14px 6px;
+  background-color: #F0F2F2;
+  font-weight: 400;
+  width: 50% !important;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.inner-additional-details span:nth-child(even) {
+  word-break: break-word;
+  padding: 7px 14px 6px;
+  border-top: 1px solid #BBBFBF;
+  width: 400px;
+  position: relative;
+  left: -180px;
+}
+
+.inner-technical-details span:nth-last-child(-n+2) {
+  border-bottom: 1px solid #BBBFBF;
+}
+
+
+@media screen and (max-width: 768px) {
+  .category-div-buypage {
+    display: none;
+  }
+
+  .technical-details,
+  .additional-information-product {
+    overflow-x: scroll;
+  }
+
+  .product-image-carousel h1 {
+    margin-left: 0;
+  }
+
+  .product-image-carousel {
+    border-top: none;
+  }
+
+  .product-image-carousel-inner {
+    width: 100%;
+  }
+
+  .product-carousel .splide__pagination__page {
+    display: none;
+  }
+
+  .device-information {
+    width: 100%;
+  }
+
+  .additional-information-product {
+    width: 100%;
+  }
+}

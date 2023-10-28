@@ -1,0 +1,59 @@
+/* .otp_main{
+    height: 100%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.otp_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    border: 1px solid #c0c0c075;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.verify_title{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 32px;
+}
+
+.verify_discription{
+    padding: 0px 20px 40px 20px;
+}
+
+.btn_text{
+    margin-left: 35px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.otp_verification{
+    margin-bottom: 15px;
+    padding: 0px 8px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #c0c0c0c8;
+    border-radius: 8px;
+    outline: none;
+}
+
+.otp_btn{
+    width: 300px;
+    height: 35px;
+    background-color: rgb(255, 163, 24);
+    border: none;
+    border-radius: 8px;
+    margin: 5px 0px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+} */

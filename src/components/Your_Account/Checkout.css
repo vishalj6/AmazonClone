@@ -1,0 +1,226 @@
+.CKO-checkout-comp {
+    background-color: white;
+}
+
+.CKO-checkout-comp-inner {
+    width: 100%;
+    /* margin: auto; */
+}
+
+.CKO-checkout-comp p {
+    margin: 1em;
+}
+
+.CKO-checkout-comp h2 {
+    padding: .83rem 0;
+}
+
+
+
+.CKO-a {
+    text-decoration: none;
+    color: rgb(0, 136, 157);
+}
+
+.CKO-header {
+    background: linear-gradient(to top, rgb(225, 225, 225) 0.5%, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    max-height: 70px;
+}
+
+.CKO-header div {
+    height: 100%;
+}
+
+.CKO-header div img {
+    /* height: 3.125rem; */
+    height: 150px;
+    margin-top: 10px;
+    object-fit: cover;
+    /* position: absolute; */
+}
+
+.CKO-header h1 {
+    margin: auto;
+    padding: 1.295rem;
+}
+
+.CKO-hr {
+    margin: 0rem;
+}
+
+.CKO-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CKO-left-section {
+    width: 70%;
+    padding: 1.25rem;
+}
+
+.CKO-sub-section-1 {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.CKO-sub-section-1 h2 {
+    min-width: 45%;
+}
+
+.CKO-sub-section-1>p {
+    min-width: 25%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 0.625rem 1.25rem;
+    margin: 1em;
+}
+
+.CKO-sub-section-1 p:last-child {
+    min-width: 15%;
+    font-size: 1.125rem;
+    text-align: right;
+}
+
+.CKO-payment-methods {
+    border: 0.0938rem solid rgb(191, 191, 191);
+    border-radius: 0.625rem;
+    padding: 0rem;
+    margin: 0.9375rem;
+}
+
+.CKO-method-selection {
+    padding: 0.625rem;
+    font-weight: 500;
+}
+
+.CKO-method-selection input {
+    margin: 0.625rem;
+}
+
+.CKO-use-this-payment-method {
+    background-color: rgb(239, 239, 239);
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    border-top: 0.0938rem solid rgb(191, 191, 191);
+}
+
+.CKO-payment-methods input[type="submit"] {
+    padding: 0.625rem;
+    background-color: gold;
+    margin: 0.625rem 1.25rem;
+    border-style: none;
+    border-radius: 0.625rem;
+}
+
+.CKO-sub-section-help {
+    font-size: 0.875rem;
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+}
+
+.CKO-right-section {
+    width: 30%;
+}
+
+.CKO-order-summary-box {
+    border: 0.0938rem solid rgb(191, 191, 191);
+    padding: 1.25rem;
+    margin: 0.625rem 0.625rem 0rem 0.625rem;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+}
+
+.CKO-osb-top-sectoin {
+    text-align: center;
+}
+
+.CKO-osb-top-sectoin button {
+    background-color: gold;
+    border-style: none;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    font-size: 0.9375rem;
+    width: 70%;
+    margin-bottom: 0rem;
+}
+
+.CKO-osb-top-sectoin button:hover {
+    background-color: rgb(239, 203, 0);
+}
+
+.CKO-osb-top-sectoin button:active {
+    background-color: rgb(216, 184, 0);
+}
+
+.CKO-order-summary-box p {
+    margin-top: 0.3125rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.CKO-order-summary-table {
+    width: 100%
+}
+
+.CKO-order-summary-table tr {
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.CKO-order-summary-table tr:first-child {
+    font-size: 1.25rem;
+}
+
+.CKO-order-summary-table tr td:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+.CKO-order-summary-table tr td:last-child {
+    width: 40%;
+    text-align: right;
+}
+
+.CKO-osb-bottom-sectoin ul {
+    margin: 0rem 0.625rem 0.625rem 0.625rem;
+    background-color: rgb(239, 239, 239);
+    border-width: 0rem 0.0938rem 0.0938rem 0.0938rem;
+    border-style: solid;
+    border-color: rgb(191, 191, 191);
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    font-size: 0.875rem;
+    padding: 0.625rem 0.625rem 0.625rem 1.25rem;
+    list-style: none;
+}
+
+.CKO-osb-bottom-sectoin ul li a {
+    text-decoration: none;
+    color: rgb(0, 136, 157);
+}
+
+@media screen and (max-width: 768px) {
+    .CKO-header {
+        display: flex;
+    }
+
+    .CKO-main {
+        flex-direction: column;
+    }
+
+    .CKO-left-section {
+        width: 100%;
+    }
+
+    .CKO-right-section {
+        width: 100%;
+    }
+
+    .CKO-order-summary-box {
+        margin: 0.625rem;
+    }
+}

@@ -1,0 +1,155 @@
+/* Created by DEV SHAH , Last Modified at 04-Sep-2023, 23:00  */
+.ADDR-add-new-address-comp-inner {
+    width: 51%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.ADDR-caption h1 {
+    text-align: left;
+    margin: 0px 10px;
+    font-size: 24px;
+}
+
+.go_back_links {
+    display: flex;
+    gap: 5px;
+    margin: 20px 10px;
+}
+
+.go_back_links .go_back_li {
+    color: #000000;
+    text-decoration: none;
+}
+
+.go_back_links .go_back_li:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+.active {
+    color: red;
+}
+
+.ADDR-add-new-address-comp-inner table {
+    width: 100%;
+    margin: 0px;
+}
+
+.ADDR-add-new-address-comp-inner table tr {
+    padding-top: 20px;
+}
+
+.ADDR-add-new-address-comp-inner table tr td {
+    width: 50%;
+}
+
+.ADDR-add-new-address-comp-inner table tr td input[type='text'],
+select {
+    width: 100%;
+    padding: 7.5px;
+    border-radius: 4px;
+    border: 1px solid rgb(127, 127, 127);
+    box-shadow: inset 0px 0.5px 3px 0px rgba(187, 187, 187, 0.600);
+}
+
+.ADDR-select {
+    background-color: #f0f2f2;
+    box-shadow: 0px 1px 3px 0px #c8c8c8;
+    border-radius: 8px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.ADDR-add-new-address-comp-inner table tr td b {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.ADDR-add-new-address-comp-inner table tr:nth-child(10) {
+    width: 10%;
+    border: 5px solid red;
+}
+
+.ADDR-add-address-button {
+    background-color: gold;
+    border-style: none;
+    padding: 7px 9px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.ADDR-option {
+    font-size: medium;
+}
+
+.default_checkbox {
+    transform: scale(1.2);
+}
+
+.default_checkbox_label {
+    margin: 0px 1px;
+    font-size: 16px;
+}
+
+select:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .ADDR-add-new-address-comp-inner {
+        width: 90%;
+    }
+
+    .ADDR-caption h1 {
+        font-size: 20px;
+    }
+
+    .go_back_links {
+        margin: 10px 10px;
+    }
+
+    .ADDR-add-new-address-comp-inner table tr td input[type='text'],
+    select {
+        width: 100%;
+        padding: 7.5px;
+        border-radius: 4px;
+        border: 1px solid rgb(127, 127, 127);
+        box-shadow: inset 0px 0.5px 3px 0px rgb(187, 187, 187);
+    }
+
+    .ADDR-add-new-address-comp-inner table tr td b {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .ADDR-add-new-address-comp-inner table tr:nth-child(10) {
+        width: 10%;
+        border: 5px solid red;
+    }
+
+    .ADDR-add-address-button {
+        background-color: gold;
+        border-style: none;
+        padding: 7px 9px;
+        border-radius: 7px;
+        margin-top: 10px;
+    }
+
+    .ADDR-option {
+        font-size: medium;
+    }
+
+    .default_checkbox {
+        transform: scale(1.2);
+    }
+
+    .default_checkbox_label {
+        margin: 0px 1px;
+        font-size: 16px;
+    }
+}
