@@ -1,6 +1,7 @@
 # Amazon Clone
 
-![Amazon Clone](https://github.com/user-attachments/assets/db941f9e-15f7-430f-84a7-f89bdc800322)
+## Home Page
+ <img src="https://github.com/user-attachments/assets/db941f9e-15f7-430f-84a7-f89bdc800322" width="80%">
 
 ## Description
 
@@ -15,16 +16,24 @@ This project is an Amazon clone built using the MERN (MongoDB, Express.js, React
 - Order Management
 - Responsive Design
 
-## Demo
+## Login and Register
+<p float="left">
+ <img src="https://github.com/user-attachments/assets/90acb3c8-ff1e-4f33-8b4d-52c951cabd21" width="400">
+  <img src="https://github.com/user-attachments/assets/f896f60b-fae5-41aa-b763-782e1b6cca56" width="400">
+</p>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <img src="https://github.com/user-attachments/assets/90acb3c8-ff1e-4f33-8b4d-52c951cabd21" width="400" style="margin: 10px;">
-  <img src="https://github.com/user-attachments/assets/f896f60b-fae5-41aa-b763-782e1b6cca56" width="400" style="margin: 10px;">
-  <img src="https://github.com/user-attachments/assets/46af797d-9213-4786-bea9-4d0b36597db8" width="400" style="margin: 10px;">
-  <img src="https://github.com/user-attachments/assets/df0e7d56-ca5c-459b-b113-6a741ddee1eb" width="400" style="margin: 10px;">
-  <img src="https://github.com/user-attachments/assets/73853e00-c511-4dbb-9e4a-bfbf6e574e62" width="400" style="margin: 10px;">
-  <img src="https://github.com/user-attachments/assets/4f5eeb71-7f18-48c6-ab65-d9bb283b8c2a" width="400" style="margin: 10px;">
-</div>
+### Home Page and Product Details Page
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/46af797d-9213-4786-bea9-4d0b36597db8" width="400">
+  <img src="https://github.com/user-attachments/assets/df0e7d56-ca5c-459b-b113-6a741ddee1eb" width="400">
+</p>
+
+### Cart and Your Account page
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/73853e00-c511-4dbb-9e4a-bfbf6e574e62" width="400">
+  <img src="https://github.com/user-attachments/assets/4f5eeb71-7f18-48c6-ab65-d9bb283b8c2a" width="400">
+</p>
+
 
 ## Technologies Used
 
