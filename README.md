@@ -1,7 +1,7 @@
 # Amazon Clone
 
 ## Home Page
- <img src="https://github.com/user-attachments/assets/db941f9e-15f7-430f-84a7-f89bdc800322" width="80%">
+ <img src="https://github.com/user-attachments/assets/db941f9e-15f7-430f-84a7-f89bdc800322">
 
 ## Description
 
