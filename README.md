@@ -18,7 +18,7 @@ This project is an Amazon clone built using the MERN (MongoDB, Express.js, React
 
 ## Login and Register
 <p float="left">
- <img src="https://github.com/user-attachments/assets/90acb3c8-ff1e-4f33-8b4d-52c951cabd21" width="400">
+ <img src="https://github.com/user-attachments/assets/db53772f-e63b-450e-ade9-ab9505b19296" width="400">
   <img src="https://github.com/user-attachments/assets/f896f60b-fae5-41aa-b763-782e1b6cca56" width="400">
 </p>
 
