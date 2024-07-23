@@ -17,10 +17,7 @@ app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 app.use(cp());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://Anshu:Anshu@amazon.nr6l1uy.mongodb.net/Amazon-Clone", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect("mongodb+srv://Anshu:Anshu@amazon.nr6l1uy.mongodb.net/Amazon-Clone", {})
   .then(() => {
     console.log("Connected to MongoDB");
   })
